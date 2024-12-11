@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fbeae7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #ffe3e0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #d65a6e;
+    margin: 0;
+}
+
+/* Secciones principales */
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ffd4d1;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #d65a6e;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #555;
+    text-align: justify;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #ffe3e0;
+    padding: 15px;
+    font-size: 1rem;
+    color: #d65a6e;
+    margin-top: 20px;
+    border-top: 2px solid #ffd4d1;
+}
+
+/* Efectos adicionales */
+section:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+footer p:hover {
+    color: #ff7e8a;
+    transition: color 0.3s ease;
+}
